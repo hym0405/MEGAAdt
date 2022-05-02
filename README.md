@@ -76,13 +76,30 @@ Variant		Template	Position	Reference_base	Alternative_base
 ## single-site mutations
 pheS_variant	pheS		397		A		G
 pheS_variant	pheS		559		A		G
-
+...
 ## multiple-sites mutations
 rsgA_variant	rsgA		255		TAA		GAG
 rsgA_variant	rsgA		408		CGA		GCT
-
+...
 ## insertion and deletion
 AAVcap_variant	AAVcap		416		C		CTGA
 AAVcap_variant	AAVcap		570		GCCA		G
+...
+```
+
+### Output format
+****Results of mutagensis oligo designs ([output_prefix].oligo.tsv) and final sequences of desired variants ([output_prefix].variant.fasta)****
+
+****[example: ./output/probeIdentity.probe_dorei.uniformis_16S.tsv]****
+```
+## Target rRNA:uniformis_16S
+## Probe set designed for: dorei_16S
+## Total length of target rRNA uniformis_16S: 1515
+## Total length of probe-target alignment: 1520
+## Number of mismatches in probe-target alignment: 129
+#target_ID	target_start	target_end	probe_ID	length_alignment	num_of_mismatches	ratio
+uniformis_16S	1	60	dorei_16S_29	60	0	0.0 
+uniformis_16S	61	110	dorei_16S_28	50	4	0.08
+uniformis_16S	111	160	dorei_16S_27	50	10	0.2 
 ...
 ```
