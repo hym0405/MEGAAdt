@@ -119,9 +119,17 @@ ATGGCTGCCGATGGTTATCTTC...
 ...
 ```
 
-### Example
+### Script example
 ```
 python3 ./MEGAdt.py -f ./test_input/input_seq.fasta \
 		-i ./test_input/variant_info.tsv \
 		-o ./test_output/output
 ```
+
+### Optional parameters
+****Oligo design****
+* Python 3.9.7
+* Python 3.9.7
+
+
+
