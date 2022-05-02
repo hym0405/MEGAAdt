@@ -93,7 +93,7 @@ AAVcap_variant	AAVcap		570		GCCA		G
 
 ****[example of mutagensis oligo designs: ./test_output/output.oligo.tsv]****
 ```
-Variant		Template	Primer			Start_site	Sequence				Length	Tm_5p	Tm_3p	Mutations	Notes			Warnings
+Variant		Template	Primer			Start_site	Sequence				Length	Tm_5p	Tm_3p	Mutations	Notes				Warnings
 rsgA_variant	rsgA		rsgA_variant-P0		1		CCATTGTTTTGTCGTTC			17	0	51.5			Extension F-primer	
 rsgA_variant	rsgA		rsgA_variant-P1		244		TTACACAGACCgagATAGTCATGGAATTCGAC	32	35.4	55.3	255_TAA_GAG		
 rsgA_variant	rsgA		rsgA_variant-P2		398		GACCGAGCCCgctGTTGTCAGAGATATCGTTG	32	43.8	57.3	408_CGA_GCT			
