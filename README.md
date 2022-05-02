@@ -65,8 +65,9 @@ ATGGCTGCCGATGGTTATCTTC...
 
 **Input variants information:** Information of desired mutations of each variant. Variants can be SNPs, multiple-SNPs, insertions or deletions but at least one base is required in Reference_base (column-4) and Alternative_base (column-5).
 
-****[Important] Positions of mutations (column-3) are 1-based ****
-****[Important] Template of variants (column-2) should match with input template sequences ****
+****[Important] Positions of mutations (column-3) are 1-based****
+
+****[Important] Template of variants (column-2) should match with input template sequences****
 
 ****[example: ./test_input/variant_info.tsv]****
 
