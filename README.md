@@ -128,7 +128,7 @@ python3 ./MEGAdt.py -f ./test_input/input_seq.fasta \
 
 ### Optional parameters
 ****Oligo design****
-* Python 3.9.7
+* end_length
 * Python 3.9.7
 
 
