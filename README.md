@@ -126,6 +126,10 @@ python3 ./MEGAdt.py -f ./test_input/input_seq.fasta \
 		-o ./test_output/output
 ```
 
+<p align="center">
+  <img src="https://github.com/hym0405/MEGAdt/blob/main/misc/MEGAdt_pipeline.png" width="327" title="hover text">
+</p>
+
 ### Optional parameters
 
 ****Oligo design****
@@ -139,6 +143,3 @@ python3 ./MEGAdt.py -f ./test_input/input_seq.fasta \
 * ****warning_gap****: print this warning if the gaps (nt) between mutagenesis oligo and the upstream oligo is less than [warning_gap]
 * ****warning_length****: print this warning if mutagenesis oligo is longer than [warning_length]nt
 
-<p align="center">
-  <img src="https://github.com/hym0405/MEGAdt/blob/main/misc/MEGAdt_pipeline.png" width="327" title="hover text">
-</p>
