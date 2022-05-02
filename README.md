@@ -44,3 +44,22 @@ Warning information [Optional]:
                         Minimum length of oligos to print warnings [default: 60]
   -h, --help            show this help message and exit
 ```
+
+### Input format
+
+**Input template sequences** Input template sequences in FASTA format, labels should match with Column-2 (Template) of variants information file.
+
+****[example: ./test_input/input_seq.fasta]****
+
+```
+>rsgA
+CCATTGTTTTGTCGTTCCTGAT...
+...
+>pheS
+ATGTCACATCTCGCAGAACTGG...
+...
+>AAVcap
+ATGGCTGCCGATGGTTATCTTC...
+...
+```
+
