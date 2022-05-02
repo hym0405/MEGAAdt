@@ -3,6 +3,10 @@ Design tools for Mutagenesis by Template-guided Amplicon Assembly (MEGA)
 
 We have tested these scripts on Linux and MacOS.
 
+<p align="center">
+  <img src="https://github.com/hym0405/MEGAdt/blob/main/misc/MEGAdt_pipeline.png" width="842" title="hover text">
+</p>
+
 ## Dependencies
 
 * Python 3.9.7
@@ -126,9 +130,7 @@ python3 ./MEGAdt.py -f ./test_input/input_seq.fasta \
 		-o ./test_output/output
 ```
 
-<p align="center">
-  <img src="https://github.com/hym0405/MEGAdt/blob/main/misc/MEGAdt_pipeline.png" width="742" title="hover text">
-</p>
+
 
 ### Optional parameters
 
