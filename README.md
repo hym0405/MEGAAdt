@@ -93,15 +93,15 @@ AAVcap_variant	AAVcap		570		GCCA		G
 
 ****[example of mutagensis oligo designs: ./test_output/output.oligo.tsv]****
 ```
-Variant	Template	Primer	Start_site	Sequence				Length	Tm_5p	Tm_3p	Mutations	Notes		Warnings
-rsgA_variant	rsgA	rsgA_variant-P0	1	CCATTGTTTTGTCGTTC			17	0	51.5			Extension F-primer	
-rsgA_variant	rsgA	rsgA_variant-P1	244	TTACACAGACCgagATAGTCATGGAATTCGAC	32	35.4	55.3	255_TAA_GAG		
-rsgA_variant	rsgA	rsgA_variant-P2	398	GACCGAGCCCgctGTTGTCAGAGATATCGTTG	32	43.8	57.3	408_CGA_GCT			
+Variant	Template	Primer			Start_site	Sequence				Length	Tm_5p	Tm_3p	Mutations	Notes			Warnings
+rsgA_variant	rsgA	rsgA_variant-P0		1		CCATTGTTTTGTCGTTC			17	0	51.5			Extension F-primer	
+rsgA_variant	rsgA	rsgA_variant-P1		244		TTACACAGACCgagATAGTCATGGAATTCGAC	32	35.4	55.3	255_TAA_GAG		
+rsgA_variant	rsgA	rsgA_variant-P2		398		GACCGAGCCCgctGTTGTCAGAGATATCGTTG	32	43.8	57.3	408_CGA_GCT			
 ...
-pheS_variant	pheS	pheS_variant-P5	326	TTACCCGTACCgTCGACCGTgTCGAAAGTTTCTTCGGTG	39	38.9	59.2	337_A_G;346_A_G	Contains multiple mutations	
-pheS_variant	pheS	pheS_variant-P6	387	CGGGCCGGAAgTCGAAGACGATTATCATAACTTC	34	47.6	61	397_A_G		
+pheS_variant	pheS	pheS_variant-P5		326		TTACCCGTACCgTCGACCGTgTCGAAAGTTTCTTCGGTG	39	38.9	59.2	337_A_G;346_A_G	Contains multiple mutations	
+pheS_variant	pheS	pheS_variant-P6		387		CGGGCCGGAAgTCGAAGACGATTATCATAACTTC	34	47.6	61	397_A_G		
 ...
-AAVcap_variant	AAVcap	AAVcap_variant-P2	405	TGTTAAGACGGctgaTCCGGGAAAAAAGAGG	31	36.5	56.5	416_C_CTGA
-AAVcap_variant	AAVcap	AAVcap_variant-P3	560	CTCTCGGACAgCCAGCAGCCCCCTC	25	36	61.4	570_GCCA_G
+AAVcap_variant	AAVcap	AAVcap_variant-P2	405		TGTTAAGACGGctgaTCCGGGAAAAAAGAGG	31	36.5	56.5	416_C_CTGA
+AAVcap_variant	AAVcap	AAVcap_variant-P3	560		CTCTCGGACAgCCAGCAGCCCCCTC	25	36	61.4	570_GCCA_G
 ...
 ```
