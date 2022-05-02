@@ -1,0 +1,30 @@
+Variant	Template	Primer	Start_site	Sequence	Length	Tm_5p	Tm_3p	Mutations	Notes	Warnings
+rsgA_variant	rsgA	rsgA_variant-P0	1	CCATTGTTTTGTCGTTC	17	0	51.5		Extension F-primer	
+rsgA_variant	rsgA	rsgA_variant-P1	244	TTACACAGACCgagATAGTCATGGAATTCGAC	32	35.4	55.3	255_TAA_GAG		
+rsgA_variant	rsgA	rsgA_variant-P2	398	GACCGAGCCCgctGTTGTCAGAGATATCGTTG	32	43.8	57.3	408_CGA_GCT		
+rsgA_variant	rsgA	rsgA_variant-P3	446	GCAGCCCCAGtagCGCATTCAGCAGGC	27	44.7	57.7	456_CAA_TAG		
+rsgA_variant	rsgA	rsgA_variant-P4	512	TGCGCCCGGTtagCGCCTCTTCCAGCG	27	51.6	59.4	522_CAA_TAG		
+rsgA_variant	rsgA	rsgA_variant-P5	562	CTGGAAACCATtagTACGCGATAACCGATATTGC	34	36.3	62.6	573_CAA_TAG		
+rsgA_variant	rsgA	rsgA_variant-P6	673	GGCTCAATCTGtagGGTTTCGCAGGCCACC	30	38.6	64.8	684_CAA_TAG		
+rsgA_variant	rsgA	rsgA_variant-P7	713	CGATAATATTGAGgctCAGCTCCGGCAAAATGGC	34	35.8	66.5	726_CGA_GCT		
+rsgA_variant	rsgA	rsgA_variant-P8	806	CCGGACGCGTtagCACgctGGTACGCTCATGCACCGC	37	48.8	68.2	816_CAA_TAG;822_CGA_GCT	Contains multiple mutations	
+rsgA_variant	rsgA	rsgA_variant-P9	910	CCGGTTACCAGgctACGGATGGTACGGCGAATATTGC	37	41.8	70.5	921_CGA_GCT		
+pheS_variant	pheS	pheS_variant-P0	1	ATGTCACATCTCGCAG	16	0	55.7		Extension F-primer	
+pheS_variant	pheS	pheS_variant-P1	33	GAAGGCGGCCgTTAGCCAGGCGTCAG	26	45.7	58.5	43_A_G		
+pheS_variant	pheS	pheS_variant-P2	168	TGGTGCGGTTgTCAACGAAGCGAAAGAGC	29	42.0	62.3	178_A_G		
+pheS_variant	pheS	pheS_variant-P3	264	GGCGGAAACGgTTGATGTCTCTCTGCC	27	42.6	55.9	274_A_G		Just next to the next primer
+pheS_variant	pheS	pheS_variant-P4	291	AGGTCGTCGCgTTGAAAACGGCGGTC	26	43.3	57.6	301_A_G		Close to the upstream primer: 0nt gaps
+pheS_variant	pheS	pheS_variant-P5	326	TTACCCGTACCgTCGACCGTgTCGAAAGTTTCTTCGGTG	39	38.9	59.2	337_A_G;346_A_G	Contains multiple mutations	
+pheS_variant	pheS	pheS_variant-P6	387	CGGGCCGGAAgTCGAAGACGATTATCATAACTTC	34	47.6	61.0	397_A_G		
+pheS_variant	pheS	pheS_variant-P7	422	ATGCTCTGAACgTTCCTGGTCACCACCC	28	36.9	61.6	433_A_G		Close to the upstream primer: 1nt gaps
+pheS_variant	pheS	pheS_variant-P8	513	TGGCGTACAGgTCCGCACCATGAAAGCC	28	38.1	64.3	523_A_G		
+pheS_variant	pheS	pheS_variant-P9	543	GCAGCCACCGgTTCGTgTCgTCGCGCCTGGCCG	33	46.4	65.1	553_A_G;559_A_G;562_A_G	Contains multiple mutations	Close to the upstream primer: 2nt gaps
+pheS_variant	pheS	pheS_variant-P10	626	TGGAAGGTCTGgTTGTTGATACCAACgTCAGCTTTACCAACCTGAAAGG	49	39.1	65.6	637_A_G;652_A_G	Contains multiple mutations	
+pheS_variant	pheS	pheS_variant-P11	709	GAAGATTTGCAGgTTCGCTTCCGTCCTTCCTAC	33	39.0	66.4	721_A_G		
+pheS_variant	pheS	pheS_variant-P12	843	TAACGTTGGCgTCGACCCGGAAGTTTACTCTG	32	35.1	66.4	853_A_G		
+AAVcap_variant	AAVcap	AAVcap_variant-P0	1	ATGGCTGCCGATG	13	0	52.4		Extension F-primer	
+AAVcap_variant	AAVcap	AAVcap_variant-P1	101	CCGCAGAGCGggatCATAAGGACGACAGC	29	46.3	53.5	111_G_GGAT		
+AAVcap_variant	AAVcap	AAVcap_variant-P2	405	TGTTAAGACGGctgaTCCGGGAAAAAAGAGG	31	36.5	56.5	416_C_CTGA		
+AAVcap_variant	AAVcap	AAVcap_variant-P3	560	CTCTCGGACAgCCAGCAGCCCCCTC	25	36.0	61.4	570_GCCA_G		
+AAVcap_variant	AAVcap	AAVcap_variant-P4	1330	TACTTGAGCAGaAACACTCCAAGTGGAACCAC	32	35.7	64.9	1341_AACA_A		
+AAVcap_variant	AAVcap	AAVcap_variant-P5	1474	TCTGCGGATAActggAACAACAGTGAATACTCggatTGGACTGGAGCTACCAAGTAC	57	38.2	65.9	1485_C_CTGG;1503_G_GGAT	Contains multiple mutations	
