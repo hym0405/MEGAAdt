@@ -47,7 +47,7 @@ Warning information [Optional]:
 
 ### Input format
 
-**Input template sequences:** Input template sequences in FASTA format, labels should match with Template (column-2) of variants information file.
+**Input template sequences:** Input template sequences in FASTA format.
 
 ****[example: ./test_input/input_seq.fasta]****
 
@@ -66,21 +66,22 @@ ATGGCTGCCGATGGTTATCTTC...
 **Input variants information:** Information of desired mutations of each variant. Variants can be SNPs, multiple-SNPs, insertions or deletions but at least one base is required in Reference_base (column-4) and Alternative_base (column-5).
 
 ****[Important] Positions of mutations (column-3) are 1-based ****
+****[Important] Template of variants (column-2) should match with input template sequences ****
 
 ****[example: ./test_input/variant_info.tsv]****
 
 ```
-Variant	Template	Position	Reference_base	Alternative_base
+Variant		Template	Position	Reference_base	Alternative_base
 ## single-site mutations
-pheS_variant	pheS	397	A	G
-pheS_variant	pheS	559	A	G
+pheS_variant	pheS		397		A		G
+pheS_variant	pheS		559		A		G
 
 ## multiple-sites mutations
-rsgA_variant	rsgA	255	TAA	GAG
-rsgA_variant	rsgA	408	CGA	GCT
+rsgA_variant	rsgA		255		TAA		GAG
+rsgA_variant	rsgA		408		CGA		GCT
 
 ## insertion and deletion
-AAVcap_variant	AAVcap	416	C	CTGA
-AAVcap_variant	AAVcap	570	GCCA	G
+AAVcap_variant	AAVcap		416		C		CTGA
+AAVcap_variant	AAVcap		570		GCCA		G
 ...
 ```
