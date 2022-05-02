@@ -128,8 +128,11 @@ python3 ./MEGAdt.py -f ./test_input/input_seq.fasta \
 
 ### Optional parameters
 ****Oligo design****
-* end_length
-* Python 3.9.7
-
-
+* end_length: Minimum number of perfectly matched bases (nt) at the 3' end and 5' end of mutagenesis oligo. 10nt is recommended in most cases and desired mutations with less than 2x [end_length] gap (nt) will be covered by the same mutagensis oligo.
+* gc_clamp3: # of GC bases (nt) required at 3' end of mutagenesis oligo. value 1 means 3' end of the oligo need to be a G or C (We found 1nt 3' GC clamp will yield higher MEGA efficiency)
+* melting5: Minimum melting temperature (°C) at 5' end of mutagenesis oligos. 35°C is recommended in most cases 
+* melting3_low and melting3_high: Lower limit and Upper limit of gradient melting temperature (°C) at 3' end of mutagenesis oligos. 50°C and 65°C is default value and the limit can be optimized if there are >20 desired mutations but melting3_low need to be greater than 45°C.
+****Warning information****
+* warning_gap: print this warning if the gaps (nt) between mutagenesis oligo and the upstream oligo is less than [warning_gap]
+* warning_length: print this warning if mutagenesis oligo is longer than [warning_length]nt
 
