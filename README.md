@@ -1,7 +1,11 @@
 # MEGAdt
 Design tools for Mutagenesis by Template-guided Amplicon Assembly (MEGA)
 
-We have tested these scripts on Linux and MacOS
+We have tested these scripts on Linux and MacOS.
+
+<p align="center">
+  <img src="https://github.com/hym0405/MEGAdt/blob/main/misc/MEGAdt_pipeline.png" width="427" title="hover text">
+</p>
 
 ## Dependencies
 
