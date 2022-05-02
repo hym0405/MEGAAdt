@@ -118,3 +118,10 @@ ATGTCACATCTCGCAGAACTGG...
 ATGGCTGCCGATGGTTATCTTC...
 ...
 ```
+
+### Example
+```
+python3 ./MEGAdt.py -f ./test_input/input_seq.fasta \
+		-i ./test_input/variant_info.tsv \
+		-o ./test_output/output
+```
