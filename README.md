@@ -127,7 +127,7 @@ python3 ./MEGAdt.py -f ./test_input/input_seq.fasta \
 ```
 
 <p align="center">
-  <img src="https://github.com/hym0405/MEGAdt/blob/main/misc/MEGAdt_pipeline.png" width="327" title="hover text">
+  <img src="https://github.com/hym0405/MEGAdt/blob/main/misc/MEGAdt_pipeline.png" width="527" title="hover text">
 </p>
 
 ### Optional parameters
