@@ -88,18 +88,20 @@ AAVcap_variant	AAVcap		570		GCCA		G
 ```
 
 ### Output format
+
 ****Results of mutagensis oligo designs ([output_prefix].oligo.tsv) and final sequences of desired variants ([output_prefix].variant.fasta)****
 
-****[example: ./output/probeIdentity.probe_dorei.uniformis_16S.tsv]****
+****[example of mutagensis oligo designs: ./test_output/output.oligo.tsv]****
 ```
-## Target rRNA:uniformis_16S
-## Probe set designed for: dorei_16S
-## Total length of target rRNA uniformis_16S: 1515
-## Total length of probe-target alignment: 1520
-## Number of mismatches in probe-target alignment: 129
-#target_ID	target_start	target_end	probe_ID	length_alignment	num_of_mismatches	ratio
-uniformis_16S	1	60	dorei_16S_29	60	0	0.0 
-uniformis_16S	61	110	dorei_16S_28	50	4	0.08
-uniformis_16S	111	160	dorei_16S_27	50	10	0.2 
+Variant	Template	Primer	Start_site	Sequence				Length	Tm_5p	Tm_3p	Mutations	Notes		Warnings
+rsgA_variant	rsgA	rsgA_variant-P0	1	CCATTGTTTTGTCGTTC			17	0	51.5			Extension F-primer	
+rsgA_variant	rsgA	rsgA_variant-P1	244	TTACACAGACCgagATAGTCATGGAATTCGAC	32	35.4	55.3	255_TAA_GAG		
+rsgA_variant	rsgA	rsgA_variant-P2	398	GACCGAGCCCgctGTTGTCAGAGATATCGTTG	32	43.8	57.3	408_CGA_GCT			
+...
+pheS_variant	pheS	pheS_variant-P5	326	TTACCCGTACCgTCGACCGTgTCGAAAGTTTCTTCGGTG	39	38.9	59.2	337_A_G;346_A_G	Contains multiple mutations	
+pheS_variant	pheS	pheS_variant-P6	387	CGGGCCGGAAgTCGAAGACGATTATCATAACTTC	34	47.6	61	397_A_G		
+...
+AAVcap_variant	AAVcap	AAVcap_variant-P2	405	TGTTAAGACGGctgaTCCGGGAAAAAAGAGG	31	36.5	56.5	416_C_CTGA
+AAVcap_variant	AAVcap	AAVcap_variant-P3	560	CTCTCGGACAgCCAGCAGCCCCCTC	25	36	61.4	570_GCCA_G
 ...
 ```
