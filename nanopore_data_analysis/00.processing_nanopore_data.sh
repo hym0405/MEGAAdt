@@ -4,6 +4,8 @@
 ### the information of barcodes usage for each sample pool are in ./sample.bc.list ###
 ### the list of samples are in ./sample.list ###
 
+### enable other script used in the analysis
+chmod +x ./bin/*
 
 ### make output folder ###
 mkdir -p output_00_readsProcess
