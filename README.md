@@ -1,10 +1,10 @@
-# MEGAdt
-Design tools for Mutagenesis by Template-guided Amplicon Assembly (MEGA)
+# MEGAAdt
+Design tools for Mutagenesis by Template-guided Amplicon Assembly (MEGAA)
 
 We have tested these scripts on Linux and MacOS.
 
 <p align="center">
-  <img src="https://github.com/hym0405/MEGAdt/blob/main/misc/MEGAdt_pipeline.png" width="842" title="hover text">
+  <img src="https://github.com/hym0405/MEGAdt/blob/main/misc/MEGAAdt_pipeline.png" width="842" title="hover text">
 </p>
 
 ## Dependencies
@@ -17,9 +17,9 @@ We have tested these scripts on Linux and MacOS.
 
 ### Description
 ```
-usage: MEGAdt.py [-f FASTA] [-i VARIANT] [-o OUTPUT] [Optional arguments]
+usage: MEGAAdt.py [-f FASTA] [-i VARIANT] [-o OUTPUT] [Optional arguments]
 
-Design tools for Mutagenesis by Template-guided Amplicon Assembly (MEGA). See details in https://github.com/hym0405/MEGAdt
+Design tools for Mutagenesis by Template-guided Amplicon Assembly (MEGAA). See details in https://github.com/hym0405/MEGAAdt
 
 Input and output [Required]:
   -f FASTA, --fasta FASTA
@@ -125,7 +125,7 @@ ATGGCTGCCGATGGTTATCTTC...
 
 ### Script example
 ```
-python3 ./MEGAdt.py -f ./test_input/input_seq.fasta \
+python3 ./MEGAAdt.py -f ./test_input/input_seq.fasta \
 		-i ./test_input/variant_info.tsv \
 		-o ./test_output/output
 ```
@@ -137,7 +137,7 @@ python3 ./MEGAdt.py -f ./test_input/input_seq.fasta \
 ****Oligo design****
 
 * ****end_length****: Minimum number of perfectly matched bases (nt) at the 3' end and 5' end of mutagenesis oligo. 10nt is recommended in most cases and desired mutations with less than 2x [end_length] gap (nt) will be covered by the same mutagensis oligo.
-* ****gc_clamp3****: # of GC bases (nt) required at 3' end of mutagenesis oligo. value 1 means 3' end of the oligo need to be a G or C (We found 1nt 3' GC clamp will yield higher MEGA efficiency)
+* ****gc_clamp3****: # of GC bases (nt) required at 3' end of mutagenesis oligo. value 1 means 3' end of the oligo need to be a G or C (We found 1nt 3' GC clamp will yield higher MEGAA efficiency)
 * ****melting5****: Minimum melting temperature (°C) at 5' end of mutagenesis oligos. 35°C is recommended in most cases 
 * ****melting3_low and melting3_high****: Lower limit and Upper limit of gradient melting temperature (°C) at 3' end of mutagenesis oligos. 50°C and 65°C is default value and the limit can be optimized if there are >20 desired mutations but melting3_low need to be greater than 45°C.
 
