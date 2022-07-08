@@ -6,8 +6,8 @@ from Bio.SeqUtils import MeltingTemp as mt
 
 def main():
 
-	parser = argparse.ArgumentParser(description = "Design tools for Mutagenesis by Template-guided Amplicon Assembly (MEGA). " + \
-						"See details in https://github.com/hym0405/MEGAdt", add_help = False)
+	parser = argparse.ArgumentParser(description = "Design tools for Mutagenesis by Template-guided Amplicon Assembly (MEGAA). " + \
+						"See details in https://github.com/hym0405/MEGAAdt", add_help = False)
 
 	group1 = parser.add_argument_group("Input and output [Required]")
 	group2 = parser.add_argument_group("Oligo design [Optional]")
