@@ -1,11 +1,14 @@
 
 ### Written by Yiming Huang, Wang Lab at Columbia University, yiminghuang0405@gmail.com ###
 
+### Patent Pending
+### © [2022] The Trustees of Columbia University in the City of New York. 
+### Use is subject to the terms of the License Agreement. 
+
 ### a demo of compressed raw nanopore reads in FASTQ format are in ./rawdata/merge.fastq.gz ###
 ### the information of barcodes usage for each sample pool are in ./sample.bc.list ###
 ### the list of samples are in ./sample.list ###
 ### MUSCLE need to be in the system PATH for this script ###
-
 
 
 ### enable other script used in the analysis
