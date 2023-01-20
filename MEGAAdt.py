@@ -1,4 +1,9 @@
 #!/usr/bin/env python3
+
+### Patent Pending
+### © [2022] The Trustees of Columbia University in the City of New York. 
+### Use is subject to the terms of the License Agreement. 
+
 import os
 import sys
 import argparse
